@@ -1,0 +1,14 @@
+RestFull Service
+
+
+Users 	-> 	Post
+
+-Rest full all users	-GET /users/
+-Create User	- POST User
+-Retrieve User 	- GET Users{id} ->/users/1
+-Delete user 	- DELETE User{id} ->/users/1
+
+
+--Retrieve all post by user -	GET /user/{id}/post
+ -Create post for user		-	POST /user/{id}/post
+ -Retrieve details all post -	GET /user/{id}/post/{post_id}
